@@ -6,7 +6,7 @@
         <field id="tpd4" name="Begin date" width="65" order="2"/>
         <field id="tpc0" name="Due Date" width="100" order="3"/>
         <timeline>
-            <![CDATA[98,74,116]]>
+            <![CDATA[116,74,98]]>
         </timeline>
         <option id="color.recent">
             <![CDATA[#0000ff #0033ff]]>
@@ -60,11 +60,11 @@
                 <customproperty taskproperty-id="tpc1" value="1"/>
             </task>
         </task>
-        <task id="74" name="Systems Design" color="#8cb6ce" meeting="false" start="2021-05-13" duration="2" complete="15" thirdDate="2021-05-06" thirdDate-constraint="0" expand="true">
+        <task id="74" name="Systems Design" color="#8cb6ce" meeting="false" start="2021-05-13" duration="2" complete="21" thirdDate="2021-05-06" thirdDate-constraint="0" expand="true">
             <depend id="98" type="2" difference="0" hardness="Strong"/>
             <customproperty taskproperty-id="tpc0" value="5/14/21"/>
             <customproperty taskproperty-id="tpc1" value="14.5"/>
-            <task id="15" name="User Interface" color="#8cb6ce" meeting="false" start="2021-05-13" duration="1" complete="60" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
+            <task id="15" name="User Interface" color="#8cb6ce" meeting="false" start="2021-05-13" duration="1" complete="85" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
                 <depend id="13" type="3" difference="0" hardness="Strong"/>
                 <customproperty taskproperty-id="tpc0" value="5/13/21"/>
                 <customproperty taskproperty-id="tpc1" value="1.5"/>
@@ -85,13 +85,13 @@
                 <customproperty taskproperty-id="tpc1" value="4"/>
             </task>
         </task>
-        <task id="98" name="Implementation" color="#000000" meeting="false" start="2021-05-15" duration="10" complete="0" thirdDate="2021-05-19" thirdDate-constraint="0" expand="true">
+        <task id="98" name="Implementation" color="#000000" meeting="false" start="2021-05-15" duration="10" complete="9" thirdDate="2021-05-19" thirdDate-constraint="0" expand="true">
             <notes>
                 <![CDATA[Kelvin: Cannot work on project from 5/16 12:00am to 5:19 5:00pm]]>
             </notes>
             <customproperty taskproperty-id="tpc0" value="5/25/21"/>
             <customproperty taskproperty-id="tpc1" value="66.5"/>
-            <task id="19" name="Source Code Production" color="#8cb6ce" meeting="false" start="2021-05-15" duration="9" complete="0" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
+            <task id="19" name="Source Code Production" color="#8cb6ce" meeting="false" start="2021-05-15" duration="9" complete="20" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
                 <depend id="18" type="1" difference="0" hardness="Strong"/>
                 <customproperty taskproperty-id="tpc0" value="5/23/21"/>
