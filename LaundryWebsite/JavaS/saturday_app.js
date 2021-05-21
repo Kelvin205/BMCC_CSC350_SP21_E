@@ -167,7 +167,7 @@ sat_12am_3am.addEventListener("click", (e) => {  //button event, fires the time 
     e.preventDefault(); 
 
 
-    if (  alreadylogged === null || logday != "Saturday" || logday === null || alreadylogged == false || sal_12am == true){ //checks if the user has already made an appointment, or if the the appointment was made on the current day or if either or null, meaning no appoints have been made
+    if (  alreadylogged === null || sal_12am == true || logged == false){ //checks if the user has already made an appointment, or if the the appointment was made on the current day or if either or null, meaning no appoints have been made
 		if (logged == false){		//checks if the user has no appointments on this page that were just made
 	    	alert("Appointment Successful"); //alerting the user the they're succussfully made an appointment
 	    	sat_12am_3am.innerHTML = user;   // setting the Avaliable to the current user
