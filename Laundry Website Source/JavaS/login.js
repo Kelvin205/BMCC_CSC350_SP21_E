@@ -10,7 +10,7 @@ button.addEventListener("click", (e) => {
     const username = form.username.value; // user's entered username
     const password = form.password.value; // user's entered password
 
-    if (username == "pass" && password == "word") { //checking if the password and username are pass and word before loginning in 
+    if (username == "pass1" && password == "word") { //checking if the password and username are pass and word before loginning in 
         /*alert("Welcome!"); */ //ommited
 
         //changing popUp's css to be green since the login's correct
