@@ -1,0 +1,14 @@
+The following input was used to test the system:
+
+input(username)            input(password)                status
+Apartment1                     abc123                       OK
+Apartment2                     abc123                       OK
+Apartment3                     abc123                       OK
+Apartment4                     abc123                       OK
+Apartment5                     abc123                       OK
+Apartment6                     abc123                       OK
+Apartment7                     abc123                       OK
+Apartment8                     abc123                       OK
+Apartment9                     abc123                       OK
+Apartment10                    abc123                       OK
+Apartment11                    abc123                       OK
