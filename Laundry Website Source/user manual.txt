@@ -1,0 +1,7 @@
+Usernames: Apartment1, Apartment2 ... Apartment25
+initial password: abc123
+The password can be changed after login; cannot be recovered if forgotten
+
+Schema stuff:
+Run the script
+When setting up MySQL Workbench the person must be logged in as root and cannot require a password otherwise system cant connect
