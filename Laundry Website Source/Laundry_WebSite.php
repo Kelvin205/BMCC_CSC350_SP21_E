@@ -1,5 +1,10 @@
+<?php
+	session_start();
+	
+	if(!$_SESSION['username'])
+		header("location: login.php");
+?>
 <!DOCTYPE html>
-
 <html>	
 <head>
 	<meta name ="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -16,17 +21,9 @@
 			<img src="Images/logo.png" class="logo">
 			<nav>
 				<ul>		
-					<li id = user_log> LOGIN </li>
-
-					<script>
-						window.onload = function(){
-							var current_user =  sessionStorage.getItem("user");
-							document.getElementById("user_log").innerHTML = current_user; 
- 						}
-					
-				
-				</script>
-					<li><a href="">ACCOUNT</a></li>		
+					<li id = user_log>Welcome, <span><?php echo $_SESSION['username'];?> </span> </li>
+					<li><a href="resetpassword.php">Reset Password</a></li>		
+					<li><a href="logout.php">Logout</a></li>
 				</ul>
 			</nav>
 
@@ -116,9 +113,6 @@
 
 
 	</div>
-
-
-
 </body>
 </html>
 

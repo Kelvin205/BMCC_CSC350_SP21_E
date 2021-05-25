@@ -1,8 +1,0 @@
-to do list:
-establish connection to database via php
-
-functions needed:
-	
-	reset password
-
-implement reservation system
