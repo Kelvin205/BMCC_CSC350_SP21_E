@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>	
+	<head>
+		<meta name ="viewport" content="width=device-width, initial-scale=1.0"> 
+	 
+		<link rel="stylesheet" href="../style.css"> 
+
+		<script defer src="../JavaS/sunday_app.js"></script> <!-- Connecting the javascript-->
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300,100' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			@font-face {
+  font-family: quote;
+  src: url(CreamCake.otf);
+}				
+				
+				body{
+				 font-family: 'Roboto';
+				 margin: 0px;
+
+				}
+
+				.sund{
+				width: 100%;
+				height: 100vh;
+				background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('../Images/daypic-1.png');
+				background-position: center;
+				background-size: cover;
+				padding-left: 8%;
+				padding-right: 8%;
+				box-sizing: border-box;
+				}
+
+				.sund h1{
+					
+					color: white;
+					font-size: 100px;
+					text-align: center;
+					padding-top: 60px;
+				}
+
+				table{
+				  width: 100%;
+				  overflow: hidden;
+				  color: #353535;
+				  padding-top: 30px;
+				  border-collapse: collapse;
+				  margin: 100px 0px;
+
+				  
+
+				}
+				td,th{
+					 
+					padding: 10px;
+					
+					color: #f0ffff;
+					text-align: center;
+
+				}
+				th{
+					padding-top: 30px;
+					padding-bottom: 30px;
+					background-color: #555c66;
+					letter-spacing: 2px;
+					font-weight: normal;
+
+				}
+				td{
+					padding-top: 40px;
+					padding-bottom: 40px;
+					background-color: #292c33;
+					border: 0.25px dotted white;
+					border-top: 4px solid #868e99;
+					font-size: 20px;
+					letter-spacing: 2px;
+
+
+				}
+				.quote h3{
+					color: white;
+					text-align: center; 
+					font-family: 'quote';
+					font-size: 30px;
+					font-weight: normal;
+				}
+
+				/*back button styling*/
+				button{
+	
+					border: transparent;
+	
+		
+					cursor: pointer;
+					
+					font-size: 20px;
+					color: 	#7FFF00;
+					background-color: transparent;
+					font-family: Arial, Helvetica, sans-serif;
+					
+				}
+
+				.back {
+				  background-color : #31B0D5;
+				  color: white;
+				  padding: 10px 20px;
+				  border-radius: 4px;
+				  border-color: #46b8da;
+				}
+
+
+
+		</style>
+
+	</head>
+	<body>
+
+		<div class="sund"> <!-- seeting the class for CSS -->
+			<h1>Sunday</h1>
+			<div class="quote">
+				<h3>"Alone, we can do so little; together, we can do so much" </h3>
+			</div>
+			<div style="overflow-x:auto;">
+			<table>
+				<tr>
+					<th>12AM - 3AM</th>
+					<th>3AM - 6AM</th>
+					<th>6AM - 9AM</th>
+					<th>9AM - 12PM</th>
+					<th>12PM - 3PM</th>
+					<th>3PM - 6PM</th>
+					<th>6PM - 9PM</th>
+					<th>9PM - 12PM</th>
+				</tr>
+
+				<!-- Setting id's to retrieve and change the "Available" information within -->
+			
+
+				<tr>    
+					<form action = "reservationVerify.php" method= "post">
+						<td> <button id = "sun12am" name = "timeslot" > Available! </button> </td>
+						<td> <button id = "sun3am" name = "timeslot"> Available! </button> </td>
+						<td> <button id = "sun6am" name = "timeslot" > Available! </button> </td>
+						<td> <button id = "sun9am" name = "timeslot" > Available! </button> </td>
+						<td> <button id = "sun12pm" name = "timeslot" > Available! </button> </td>
+						<td> <button id = "sun3pm" name = "timeslot" > Available! </button> </td>
+						<td> <button id = "sun6pm" name = "timeslot" > Available! </button> </td>
+						<td> <button id = "sun9pm" name = "timeslot" > Available! </button> </td>
+					</form>
+				</tr>
+			</table>
+
+			<!-- Back track button to return to the landing page -->	
+			<div id="Goingback">
+				<a href="../Laundry_WebSite.html">
+					<button class="back">Back</button>	
+				</a>
+			</div>
+	
+		</div>
+	</body>
+</html>
