@@ -1,6 +1,8 @@
 Usernames: Apartment1, Apartment2 ... Apartment25
-initial password: abc123
+initial passwords for all users: abc123
 The password can be changed after login; cannot be recovered if forgotten
+
+Website Source code needs to go in htdocs in XAMP dir
 
 Schema stuff:
 Run the script
